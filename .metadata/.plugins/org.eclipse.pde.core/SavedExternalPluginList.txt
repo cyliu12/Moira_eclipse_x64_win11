@@ -1,4 +1,4 @@
-# List of external plug-in models previously loaded. Timestamp: 1694172852241
+# List of external plug-in models previously loaded. Timestamp: 1694175996642
 file:/C:/Users/cyliu/.p2/pool/plugins/bcpg_1.73.0.jar
 file:/C:/Users/cyliu/.p2/pool/plugins/bcpkix_1.73.0.jar
 file:/C:/Users/cyliu/.p2/pool/plugins/bcprov_1.73.0.jar
@@ -154,6 +154,8 @@ file:/C:/Users/cyliu/.p2/pool/plugins/org.eclipse.eclemma.ui_3.1.7.202306070845.
 file:/C:/Users/cyliu/.p2/pool/plugins/org.eclipse.egit_6.6.0.202305301015-r.jar
 file:/C:/Users/cyliu/.p2/pool/plugins/org.eclipse.egit.core_6.6.0.202305301015-r.jar
 file:/C:/Users/cyliu/.p2/pool/plugins/org.eclipse.egit.doc_6.6.0.202305301015-r.jar
+file:/C:/Users/cyliu/.p2/pool/plugins/org.eclipse.egit.gitflow_6.6.0.202305301015-r.jar
+file:/C:/Users/cyliu/.p2/pool/plugins/org.eclipse.egit.gitflow.ui_6.6.0.202305301015-r.jar
 file:/C:/Users/cyliu/.p2/pool/plugins/org.eclipse.egit.github.core_6.1.0.202203080745-r.jar
 file:/C:/Users/cyliu/.p2/pool/plugins/org.eclipse.egit.ui_6.6.0.202305301015-r.jar
 file:/C:/Users/cyliu/.p2/pool/plugins/org.eclipse.emf.common_2.28.0.v20230315-1321.jar

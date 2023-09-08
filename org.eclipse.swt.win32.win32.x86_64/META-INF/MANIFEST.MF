@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %fragmentName
+Bundle-SymbolicName: org.eclipse.swt.win32.win32.x86_64;singleton:=true
+Bundle-Version: 3.124.0.v20230523-1044
+Bundle-ClassPath: org.eclipse.swt.win32.win32.x86_64_3.124.0.v20230523-1044.jar
+Bundle-Vendor: %providerName
+Fragment-Host: org.eclipse.swt;bundle-version="[3.124.0,4.0.0)"
+Bundle-Localization: fragment
+Export-Package: org.eclipse.swt,
+ org.eclipse.swt.accessibility,
+ org.eclipse.swt.awt,
+ org.eclipse.swt.browser,
+ org.eclipse.swt.custom,
+ org.eclipse.swt.dnd,
+ org.eclipse.swt.events,
+ org.eclipse.swt.graphics,
+ org.eclipse.swt.internal;x-friends:="org.eclipse.ui",
+ org.eclipse.swt.internal.gdip;x-internal:=true,
+ org.eclipse.swt.internal.image;x-internal:=true,
+ org.eclipse.swt.internal.ole.win32;x-internal:=true,
+ org.eclipse.swt.internal.opengl.win32;x-internal:=true,
+ org.eclipse.swt.internal.win32;x-internal:=true,
+ org.eclipse.swt.layout,
+ org.eclipse.swt.ole.win32,
+ org.eclipse.swt.opengl,
+ org.eclipse.swt.printing,
+ org.eclipse.swt.program,
+ org.eclipse.swt.widgets
+SWT-Arch: x86_64
+SWT-OS: win32
+Automatic-Module-Name: org.eclipse.swt.win32.win32.x86_64
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse-platform/eclipse.platform.swt.binaries.git;path="bundles/org.eclipse.swt.win32.win32.x86_64";tag="I20230523-1800";commitId=93a1b08cdacf1c18a5e861c653d8ccb3dd6e8bf3
+Eclipse-PlatformFilter: (& (osgi.ws=win32) (osgi.os=win32) (osgi.arch=x86_64))
+SWT-WS: win32
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17

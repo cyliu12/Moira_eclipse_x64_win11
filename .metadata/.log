@@ -7394,3 +7394,22 @@ java.io.FileNotFoundException: C:\eclipseWork\git\cyliu12\eclipse_Moira_x64\.met
 	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1152)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2023-09-11 16:06:20.684
+!MESSAGE C:\eclipseWork\git\cyliu12\eclipse_Moira_x64\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (存取被拒。)
+!STACK 0
+java.io.FileNotFoundException: C:\eclipseWork\git\cyliu12\eclipse_Moira_x64\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (存取被拒。)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.writeInstallInfo(LaunchingPlugin.java:1113)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$1.saving(LaunchingPlugin.java:576)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:393)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:209)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:212)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1173)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1152)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

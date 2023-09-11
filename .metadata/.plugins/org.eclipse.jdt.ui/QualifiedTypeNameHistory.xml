@@ -4,4 +4,5 @@
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="org.athomeprojects.base.Calculate"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Monitor"/>
 </qualifiedTypeNameHistroy>

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="endProg"/>
+		<item key="selection" value="64"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="x64"/>
+			<item value="64"/>
 			<item value="endprog"/>
 			<item value="main"/>
 			<item value="string"/>
@@ -21,8 +23,6 @@
 			<item value="yearPos"/>
 			<item value="year"/>
 			<item value="dispose"/>
-			<item value="Shin"/>
-			<item value="getShin"/>
 		</list>
 		<list key="replacehistory">
 			<item value="//System.out."/>

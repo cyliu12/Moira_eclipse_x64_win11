@@ -9,6 +9,8 @@
 	<classpathentry kind="lib" path="/org.eclipse.equinox.common/org.eclipse.equinox.common_3.11.0.v20200206-0817.jar"/>
 	<classpathentry kind="lib" path="/org.eclipse.core.commands/org.eclipse.core.commands_3.9.700.v20191217-1850.jar"/>
 	<classpathentry kind="lib" path="/org.eclipse.jface/org.eclipse.jface_3.30.0.v20230509-0720.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.jface"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.swt.win32.win32.x86_64"/>
 	<classpathentry kind="lib" path="/org.eclipse.swt.win32.win32.x86_64/org.eclipse.swt.win32.win32.x86_64_3.124.0.v20230523-1044.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

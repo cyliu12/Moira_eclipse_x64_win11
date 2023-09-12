@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<component id="org.eclipse.equinox.common" modificationStamp="300" version="1.2">
-    <package visibility="1">
-        <fragment handle="=org.eclipse.equinox.common/org.eclipse.equinox.common_3.11.0.v20200206-0817.jar&lt;org.eclipse.core.runtime"/>
-    </package>
-    <package visibility="1">
-        <fragment handle="=org.eclipse.equinox.common/org.eclipse.equinox.common_3.11.0.v20200206-0817.jar&lt;org.eclipse.equinox.events"/>
-    </package>
-</component>

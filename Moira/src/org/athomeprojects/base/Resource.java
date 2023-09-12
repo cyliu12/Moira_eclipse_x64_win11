@@ -30,14 +30,14 @@ import java.util.prefs.Preferences;
 
 public class Resource {
     static public boolean trace = true;
-
-    static public final String NUMBER = "1.50.640001";	//2023/09/11 開始使用這個版號，1.50是原本Moira最後一版的版號，與立命推移有關的才從1.50的地方加版號。與立命推移無關的，都在64後面加版號
     
-    static public final String NAME = "Moira " + NUMBER;    
+    static public final String NAME = "Moira";    
 
+    static public final String NUMBER = "1.50.6411.0001";
+   
     static public final String COPYRIGHT_1 = "Copyright ";
 
-    static public final String COPYRIGHT_2 = " 2004-2015 At Home Projects & 2020 mod by cyliu 2023";
+    static public final String COPYRIGHT_2 = " 2004-2015 At Home Projects & mod by cyliu 2023";
 
     static public final String DATA_EXT = "mri";
 
@@ -738,7 +738,7 @@ public class Resource {
 
     static public String getFootnote()
     {
-        if (Resource.hasPrefKey("footnote")) {
+        if (Resource.hasPrefKey("footnote") && false) {		//cyliu12
             return Resource.getPrefString("footnote");
         } else {
             return Resource.NAME + " version " + Resource.NUMBER + ", "

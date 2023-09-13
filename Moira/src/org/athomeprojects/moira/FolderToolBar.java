@@ -550,16 +550,13 @@ public class FolderToolBar {
     }
 
     static public void resetToolBarAppearance() {
-        if (folder_bar.getItemCount() > 0) {    
-        	int[] db = folder_bar.getItemOrder();
+        if (folder_bar.getItemCount() > 0) {            	
             Point[] sizes = folder_bar.getItemSizes();
             CoolItem[] items = folder_bar.getItems();
             int[] orders = new int[sizes.length];  
             for (int i = 0; i < sizes.length; i++) {
             	orders[i]=i;            	            	
-            	Composite container = (Composite)items[i].getControl();
-            	container.pack(true);   
-            	sizes[i].x = container.getSize().x + items[i].getMinimumSize().x;
+            	sizes[i].x = items[i].getPreferredSize().x;
             }  
             folder_bar.setItemLayout(orders, null, sizes); 
         }

@@ -98,7 +98,7 @@ public class Resource {
             String mod_name, String eval_name)
     {    
     	HD_POSTFIX = Moira.getDisplayDefinitionPostfix();
-    	//HD_POSTFIX = "2K";
+    	//HD_POSTFIX = "4K";
         resource = null;
         //prefs = (clss == null) ? null : Preferences.userNodeForPackage(clss);
         prefs = (clss == null) ? null : new MyPrefs(clss);

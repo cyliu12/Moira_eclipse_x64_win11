@@ -18,6 +18,7 @@
 //
 package org.athomeprojects.swtext;
 
+import org.athomeprojects.base.Resource;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.custom.CLabel;
 import org.eclipse.swt.custom.StackLayout;
@@ -42,7 +43,7 @@ public class CButton extends Composite {
 	public CButton(Composite parent, String image_name, String tool_tip) {
 		super(parent, SWT.NONE);
 		name = image_name;
-		image = ImageManager.getImage(image_name);
+		image = ImageManager.getImage(image_name + Resource.HD_POSTFIX);		
 		layout = new StackLayout();
 		layout.marginWidth = layout.marginHeight = 0;
 		setLayout(layout);

@@ -11,7 +11,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.jface"/>
 	<classpathentry kind="lib" path="/org.eclipse.jface/org.eclipse.jface_3.30.0.v20230509-0720.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.swt.win32.win32.x86_64"/>
-	<classpathentry kind="lib" path="/org.eclipse.swt.win32.win32.x86_64/org.eclipse.swt.win32.win32.x86_64_3.124.0.v20230523-1044.jar"/>
+	<classpathentry kind="lib" path="/org.eclipse.swt.win32.win32.x86_64/org.eclipse.swt.win32.win32.x86_64_3.124.0.v20230523-1044.jar" sourcepath="/org.eclipse.swt.win32.win32.x86_64/org.eclipse.swt.win32.win32.x86_64_3.124.0.v20230523-1044.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.core.commands"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.equinox.common"/>
 	<classpathentry kind="output" path="bin"/>
